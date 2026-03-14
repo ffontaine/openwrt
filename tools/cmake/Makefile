@@ -10,7 +10,7 @@ PKG_NAME:=cmake
 PKG_VERSION:=4.2.3
 PKG_VERSION_MAJOR:=$(word 1,$(subst ., ,$(PKG_VERSION))).$(word 2,$(subst ., ,$(PKG_VERSION)))
 PKG_RELEASE:=1
-PKG_CPE_ID:=cpe:/a:kitware:cmake
+PKG_CPE_ID:=cpe:/a:cmake_project:cmake
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://github.com/Kitware/CMake/releases/download/v$(PKG_VERSION)/ \
